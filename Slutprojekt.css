@@ -3,6 +3,8 @@ html, body{
  }
  header {
     text-align: center;
+    padding: 1%;
+    background-image: linear-gradient(to bottom right,	#b8f07f, #f7f7bb)
  }
  nav {
      width: 100%;
@@ -30,13 +32,12 @@ html, body{
      }
      
      a:visited {
-     color:  #000000
+     color:  #000000;
      }
      a:focus {
          background-color:   #ffe6e9;
          }
      a:hover {
-     
          background-color:  #ffe6ea;
          color: #b3b3b3;
      }
@@ -59,15 +60,33 @@ html, body{
          display: block;
      } 
 form {
-    width: 73%;
+    width: 67%;
     text-align: center;
     padding: 1em;
     float: left;
 }
-section {
+aside {
     position: static;
     width:23%;
-    display: inline-block;
-    background-color: aqua;
+    background-color: #ffe6e9;
     padding: 1%;
+    float: right;
+    margin: 2%;
+    border-radius: 20px;
+    height: 50%;
+}
+article {
+    height: 50%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #ffe6e9;
+    float: left;
+    width: 60%;
+}
+footer {
+    background-color: #ffc0cb;
+    text-align: center;
+    display: inline-block;
+    padding: 1%;
+    width: 100%;
 }
